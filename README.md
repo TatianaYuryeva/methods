@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/1hx8hscfxvypn34r?svg=true)](https://ci.appveyor.com/project/TatianaYuryeva/methods)
