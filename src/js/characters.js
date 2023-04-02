@@ -1,5 +1,5 @@
 export class Character {
-  constructor(name, type, attack, defence, health=100, level=1) {
+  constructor(name, type, attack, defence, health = 100, level = 1) {
     this.name = name;
     this.type = type;
     this.health = health;
@@ -27,7 +27,7 @@ export class Character {
 }
 
 export class Boweman extends Character {
-  attack = 25;
-
-  defence = 25;
+  constructor(name, type, attack = 25, defence = 25) {
+    super(name, type, attack, defence);
+  }
 }
